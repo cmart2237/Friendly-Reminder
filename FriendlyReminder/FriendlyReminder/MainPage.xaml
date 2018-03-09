@@ -4,8 +4,34 @@
              xmlns:local="clr-namespace:FriendlyReminder"
              x:Class="FriendlyReminder.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <Label  TextColor="LightGreen"
+                Text="Friendly Reminder" 
+                VerticalOptions="Start" 
+                HorizontalOptions="Center" />
 
+        <Button BackgroundColor ="LightGreen"
+                TextColor="White"
+                Text="Goals"
+                WidthRequest="200"
+                HorizontalOptions="CenterAndExpand" />
+
+        <Button BackgroundColor ="LightGreen"
+                TextColor="White"
+                Text="Rewards"
+                WidthRequest="200"
+                HorizontalOptions="Center" />
+
+        <Button BackgroundColor ="LightGreen"
+                TextColor="White"
+                Text="Consequences"
+                WidthRequest="200"
+                HorizontalOptions="Center" />
+
+        <Button BackgroundColor ="LightGreen"
+                TextColor="White"
+                Text="Settings"
+                WidthRequest="200"
+                HorizontalOptions="Center" />
+    </StackLayout>
 </ContentPage>
