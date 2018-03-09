@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Goals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GoalsButton" />
+    <Button
+        android:text="Rewards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rewards" />
+    <Button
+        android:text="Conseqences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Conseqences" />
+    <Button
+        android:text="Calender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Calender" />
+    <Button
+        android:text="Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Settings" />
+</LinearLayout>
