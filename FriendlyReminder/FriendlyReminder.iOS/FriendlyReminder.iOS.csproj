@@ -116,6 +116,9 @@
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>C:\Users\sinfu\.nuget\packages\xamarin.forms\2.5.1.444934\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
